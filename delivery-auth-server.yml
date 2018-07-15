@@ -30,7 +30,7 @@ spring:
         password: 'caraca21'
         platform: mysql
         schema: classpath:/sql/schema.sql
-        url: jdbc:mysql://localhost/microservices?verifyServerCertificate=false&useSSL=false&requireSSL=false
+        url: jdbc:mysql://127.0.0.1:3306/microservices?verifyServerCertificate=false&useSSL=false&requireSSL=false
         username: root
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
